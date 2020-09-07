@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "PTSans-Regular";
+    src: url(polices/PTSans-Regular.ttf) format("truetype");
+}
+body{
+    font-family: "PTSans-Regular";
+    text-align: justify;
+    line-height: 1.5em;
+}
+/********************************************************/
+/************************BOX****************************/
+#page{
+    display: flex;
+}
+.boxleft{
+    width: 15%;
+    background-color: rgb(255, 149, 78);
+
+}
+.boxright{
+    width: 85%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: rgb(243, 243, 243);
+    background-image: url(images/PP.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 96.8%;
+    background-position-y: 4%;
+    background-size: 130px 130px;
+}
+/********************************************************/
+/********************************************************/
+.p2{
+    margin-top: 2.5%;
+}
+h2{
+    border-bottom: 3px solid rgb(255, 149, 78);
+}
+.colonnegauche{
+    width: 10em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#cercle{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    background: rgb(243, 243, 243);
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    font-weight: bold;
+    color: rgb(255, 149, 78);
+    text-align: center;
+    margin-bottom: -100px;
+    left: 12%;
+    bottom: -19em;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    }
